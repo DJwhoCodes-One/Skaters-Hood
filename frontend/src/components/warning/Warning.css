@@ -1,0 +1,36 @@
+.closeWarning {
+  display: none;
+}
+
+.warningContainer {
+  width: 100%;
+  background: rgb(34, 2, 55);
+  position: fixed;
+  z-index: 101;
+  height: 45px;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.warning {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 0px;
+  align-items: center;
+  color: white;
+}
+
+.warning button {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid rgb(154, 147, 147);
+  color: white;
+  cursor: pointer;
+}
